@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Live user search</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header bg-success">
+            <h4 class="title">Live user search</h4>
+            <small class="subtitle">Search by name and/or by location</small>
+            <input type="text" id="filter" placeholder="search">
+        </header>
+        <ul id="result" class="user-list bg-opacity-100">
+            <li>
+                <img src="./image/jamo.jpeg" alt="jamo">
+                <div class="user-info">
+                    <h4>Babatunde Jamiu</h4>
+                    <p>Nigeria, Oyo</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/arike.jpg" alt="sara">
+                <div class="user-info">
+                    <h4>Abubakar Sarah</h4>
+                    <p>Nigeria, Ilorin</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/abu-bilal.jpg" alt="abu-bilal">
+                <div class="user-info">
+                    <h4>Ilyas Bilal</h4>
+                    <p>Nigeria, Ibadan</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/abu-hanif.jpg" alt="abu-hanif">
+                <div class="user-info">
+                    <h4>Abu Hanifah</h4>
+                    <p>Nigeria, Ibadan</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/sax.jpeg" alt="sax">
+                <div class="user-info">
+                    <h4>Yusuf Shamsondeen (SAX)</h4>
+                    <p>Nigeria, Lagos</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/aisha.jpg" alt="aisha">
+                <div class="user-info">
+                    <h4>Bajulaye Aisha</h4>
+                    <p>Nigeria, Lagos</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/alabere.jpg" alt="sara">
+                <div class="user-info">
+                    <h4>Isiaq Abdulazeez (Alabere)</h4>
+                    <p>Nigeria, Ilorin</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/surj.jpeg" alt="surj">
+                <div class="user-info">
+                    <h4>Surajudeen Okoiyawo</h4>
+                    <p>Nigeria, Oyo</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/kazeem.jpg" alt="kazeem">
+                <div class="user-info">
+                    <h4>Onilearo Qozeem</h4>
+                    <p>Nigeria, Ilorin</p>
+                </div>
+            </li>
+            <li>
+                <img src="./image/ali.jpg" alt="ali">
+                <div class="user-info">
+                    <h4>Bajulaye Aliyyu</h4>
+                    <p>Nigeria, Lagos</p>
+                </div>
+            </li>
+            <li>
+                <button class="btn btn-success my-3 mx-5 px-4" active>
+                    <span class="spinner-border spinner-border-lg"></span>
+                    Loading..
+                </button>
+            </li>
+        </ul>
+    </div>
+    <script src="./app/app.js"></script>
+</body>
+</html>
